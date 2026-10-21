@@ -1,0 +1,3 @@
+# Community code of conduct
+
+Treat project participants with respect. This repository documents harmful terms for detection and testing, not endorsement. Do not direct slurs, threats, harassment, doxxing, unwanted sexual content, or identity-based abuse at contributors. Moderators may remove abusive content and restrict participation in project spaces. To report problems, open a private maintainer/security channel when available; do not post private personal data in public issues. Academic, documentary, or technical discussion of hateful language is allowed when relevant and appropriately contextualized.

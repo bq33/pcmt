@@ -1,0 +1,23 @@
+schema_version: 1
+category: multilingual
+title: Multilingual and cross-cultural candidates
+category_notes: Never equate literal foreign-language translation with abuse
+entries:
+- id: PCMT-ML-001
+  term: puto
+  signal: context_only
+- id: PCMT-ML-002
+  term: maricón
+  signal: context_only
+- id: PCMT-ML-003
+  term: negro
+  signal: context_only
+- id: PCMT-ML-004
+  term: negrito
+  signal: context_only
+- id: PCMT-ML-005
+  term: puta
+  signal: context_only
+- id: PCMT-ML-006
+  term: pinche
+  signal: context_only

@@ -1,0 +1,23 @@
+schema_version: 1
+category: spam_scams
+title: Spam and scams
+category_notes: Signals for triage, not proof of wrongdoing
+entries:
+- id: PCMT-SP-001
+  term: DM me for investment
+  signal: context_only
+- id: PCMT-SP-002
+  term: guaranteed returns
+  signal: context_only
+- id: PCMT-SP-003
+  term: claim your prize
+  signal: context_only
+- id: PCMT-SP-004
+  term: crypto giveaway
+  signal: context_only
+- id: PCMT-SP-005
+  term: click my bio
+  signal: context_only
+- id: PCMT-SP-006
+  term: promote it on
+  signal: context_only

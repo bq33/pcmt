@@ -1,0 +1,115 @@
+schema_version: 1
+category: anti_black_racism
+title: Anti-Black racism and racialized harassment
+category_notes: Racial slurs, degrading stereotypes, and harassment around interracial relationships
+entries:
+- id: PCMT-AB-001
+  term: nigger
+  signal: high_signal
+- id: PCMT-AB-002
+  term: niggers
+  signal: high_signal
+- id: PCMT-AB-003
+  term: nigga
+  signal: high_signal
+- id: PCMT-AB-004
+  term: niggas
+  signal: high_signal
+- id: PCMT-AB-005
+  term: jigaboo
+  signal: high_signal
+- id: PCMT-AB-006
+  term: coon
+  signal: high_signal
+- id: PCMT-AB-007
+  term: coons
+  signal: high_signal
+- id: PCMT-AB-008
+  term: sambo
+  signal: high_signal
+- id: PCMT-AB-009
+  term: porch monkey
+  signal: high_signal
+- id: PCMT-AB-010
+  term: cotton picker
+  signal: high_signal
+- id: PCMT-AB-011
+  term: black ape
+  signal: high_signal
+- id: PCMT-AB-012
+  term: black monkey
+  signal: high_signal
+- id: PCMT-AB-013
+  term: race traitor
+  signal: high_signal
+- id: PCMT-AB-014
+  term: monkey
+  signal: context_only
+- id: PCMT-AB-015
+  term: ape
+  signal: context_only
+- id: PCMT-AB-016
+  term: ghetto
+  signal: context_only
+- id: PCMT-AB-017
+  term: thug
+  signal: context_only
+- id: PCMT-AB-018
+  term: urban
+  signal: context_only
+- id: PCMT-AB-019
+  term: DEI hire
+  signal: context_only
+- id: PCMT-AB-020
+  term: welfare queen
+  signal: context_only
+- id: PCMT-AB-021
+  term: affirmative action
+  signal: context_only
+- id: PCMT-AB-022
+  term: diversity hire
+  signal: context_only
+- id: PCMT-AB-023
+  term: black
+  signal: context_only
+- id: PCMT-AB-024
+  term: white
+  signal: context_only
+- id: PCMT-AB-025
+  term: hood
+  signal: context_only
+- id: PCMT-AB-026
+  term: spook
+  signal: context_only
+- id: PCMT-AB-027
+  term: mudshark
+  variants:
+  - mud shark
+  - mud-shark
+  - mud_shark
+  - mudsharks
+  - mudsharking
+  - mud sharking
+  - mud.shark
+  - m u d s h a r k
+  signal: high_signal
+  categories:
+  - racialized_harassment
+  - misogyny
+  - interracial_relationship_harassment
+  severity_if_contextually_confirmed: S3
+  pattern: (?i)(?<![A-Za-z0-9])m[\s._-]{0,3}u[\s._-]{0,3}d[\s._-]{0,3}s[\s._-]{0,3}h[\s._-]{0,3}a[\s._-]{0,3}r[\s._-]{0,3}k(?:s|[\s._-]{0,3}ing)?(?![A-Za-z0-9])
+  interpretation: A racist and sexist slur directed at women (often white women) for relationships with
+    Black men. Context matters.
+  non_violating_contexts:
+  - literal fish species or fishing discussion
+  - business, product, artist, or music name
+  - reporting about the slur
+  - educational discussion or quotation
+  - condemnation/counterspeech
+  added: '2026-10-16'
+  status: curated_candidate
+  source_urls:
+  - https://www.dictionary.com/culture/slang/mud-shark
+  notes: Do not auto-hide on the word alone. A targeted racialized/sexist attack can be S3 if clear in
+    context.

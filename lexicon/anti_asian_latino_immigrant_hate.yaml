@@ -1,0 +1,74 @@
+schema_version: 1
+category: anti_asian_latino_immigrant_hate
+title: Anti-Asian, anti-Latino, and anti-immigrant hate
+category_notes: Do not classify ordinary immigration policy discussion as hate
+entries:
+- id: PCMT-AI-001
+  term: chink
+  signal: high_signal
+- id: PCMT-AI-002
+  term: chinks
+  signal: high_signal
+- id: PCMT-AI-003
+  term: gook
+  signal: high_signal
+- id: PCMT-AI-004
+  term: gooks
+  signal: high_signal
+- id: PCMT-AI-005
+  term: ching chong
+  signal: high_signal
+- id: PCMT-AI-006
+  term: zipperhead
+  signal: high_signal
+- id: PCMT-AI-007
+  term: slant eyes
+  signal: high_signal
+- id: PCMT-AI-008
+  term: spic
+  signal: high_signal
+- id: PCMT-AI-009
+  term: spics
+  signal: high_signal
+- id: PCMT-AI-010
+  term: wetback
+  signal: high_signal
+- id: PCMT-AI-011
+  term: wetbacks
+  signal: high_signal
+- id: PCMT-AI-012
+  term: beaner
+  signal: high_signal
+- id: PCMT-AI-013
+  term: beaners
+  signal: high_signal
+- id: PCMT-AI-014
+  term: illegal
+  signal: context_only
+- id: PCMT-AI-015
+  term: alien
+  signal: context_only
+- id: PCMT-AI-016
+  term: border
+  signal: context_only
+- id: PCMT-AI-017
+  term: invasion
+  signal: context_only
+- id: PCMT-AI-018
+  term: model minority
+  signal: context_only
+- id: PCMT-AI-019
+  term: kung flu
+  signal: context_only
+- id: PCMT-AI-020
+  term: rice eater
+  signal: context_only
+- id: PCMT-AI-021
+  term: border hopper
+  signal: context_only
+- id: PCMT-AI-022
+  term: foreigner
+  signal: context_only
+- id: PCMT-AI-023
+  term: immigrant
+  signal: context_only

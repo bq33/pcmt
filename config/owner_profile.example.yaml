@@ -1,0 +1,14 @@
+# Copy to a PRIVATE owner-specific profile. No OAuth tokens or credentials here.
+# The open-source lexicon is NOT your personal blocklist.
+profile_name: personal_aggressive_example
+operating_mode: audit_only
+moderation_preset: aggressive
+platforms: [instagram, threads]
+# Owner explicitly elects to hide these candidate IDs regardless of innocent meaning
+# AFTER authorizing active hiding on a specific platform.
+owner_always_hide_term_ids:
+  - PCMT-AB-027 # mudshark and variants
+# Optional per-platform change requires explicit account owner authorization:
+active_hide_authorized_on: []
+delete_policy: never_without_per_item_approval
+rules_auto_update: false

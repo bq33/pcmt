@@ -1,0 +1,50 @@
+schema_version: 1
+category: anti_lgbtq
+title: Anti-LGBTQ+ and gender-identity hate
+category_notes: Preserve self-identification, reclamation, and good-faith policy debate
+entries:
+- id: PCMT-LGBT-001
+  term: faggot
+  signal: high_signal
+- id: PCMT-LGBT-002
+  term: faggots
+  signal: high_signal
+- id: PCMT-LGBT-003
+  term: tranny
+  signal: high_signal
+- id: PCMT-LGBT-004
+  term: trannies
+  signal: high_signal
+- id: PCMT-LGBT-005
+  term: shemale
+  signal: high_signal
+- id: PCMT-LGBT-006
+  term: gay
+  signal: context_only
+- id: PCMT-LGBT-007
+  term: lesbian
+  signal: context_only
+- id: PCMT-LGBT-008
+  term: queer
+  signal: context_only
+- id: PCMT-LGBT-009
+  term: dyke
+  signal: context_only
+- id: PCMT-LGBT-010
+  term: trans
+  signal: context_only
+- id: PCMT-LGBT-011
+  term: transgender
+  signal: context_only
+- id: PCMT-LGBT-012
+  term: groomer
+  signal: context_only
+- id: PCMT-LGBT-013
+  term: pronouns
+  signal: context_only
+- id: PCMT-LGBT-014
+  term: biological sex
+  signal: context_only
+- id: PCMT-LGBT-015
+  term: drag
+  signal: context_only

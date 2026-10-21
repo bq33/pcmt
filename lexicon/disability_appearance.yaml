@@ -1,0 +1,44 @@
+schema_version: 1
+category: disability_appearance
+title: Disability and appearance-based attacks
+category_notes: Appearance words and former medical terminology are context-dependent
+entries:
+- id: PCMT-DA-001
+  term: retard
+  signal: high_signal
+- id: PCMT-DA-002
+  term: retarded
+  signal: high_signal
+- id: PCMT-DA-003
+  term: mongoloid
+  signal: high_signal
+- id: PCMT-DA-004
+  term: spaz
+  signal: context_only
+- id: PCMT-DA-005
+  term: crazy
+  signal: context_only
+- id: PCMT-DA-006
+  term: insane
+  signal: context_only
+- id: PCMT-DA-007
+  term: lame
+  signal: context_only
+- id: PCMT-DA-008
+  term: psycho
+  signal: context_only
+- id: PCMT-DA-009
+  term: fat
+  signal: context_only
+- id: PCMT-DA-010
+  term: ugly
+  signal: context_only
+- id: PCMT-DA-011
+  term: bald
+  signal: context_only
+- id: PCMT-DA-012
+  term: short
+  signal: context_only
+- id: PCMT-DA-013
+  term: obese
+  signal: context_only

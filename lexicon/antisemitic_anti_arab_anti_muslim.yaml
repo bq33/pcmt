@@ -1,0 +1,68 @@
+schema_version: 1
+category: antisemitic_anti_arab_anti_muslim
+title: Antisemitic, anti-Arab, and anti-Muslim hate
+category_notes: Protect political, national, and religious discussion absent identity-based abuse
+entries:
+- id: PCMT-RM-001
+  term: kike
+  signal: high_signal
+- id: PCMT-RM-002
+  term: kikes
+  signal: high_signal
+- id: PCMT-RM-003
+  term: hebe
+  signal: high_signal
+- id: PCMT-RM-004
+  term: hebes
+  signal: high_signal
+- id: PCMT-RM-005
+  term: oven dodger
+  signal: high_signal
+- id: PCMT-RM-006
+  term: raghead
+  signal: high_signal
+- id: PCMT-RM-007
+  term: towelhead
+  signal: high_signal
+- id: PCMT-RM-008
+  term: sand nigger
+  signal: high_signal
+- id: PCMT-RM-009
+  term: globalist
+  signal: context_only
+- id: PCMT-RM-010
+  term: zionist
+  signal: context_only
+- id: PCMT-RM-011
+  term: islamist
+  signal: context_only
+- id: PCMT-RM-012
+  term: jihad
+  signal: context_only
+- id: PCMT-RM-013
+  term: sharia
+  signal: context_only
+- id: PCMT-RM-014
+  term: jew
+  signal: context_only
+- id: PCMT-RM-015
+  term: jewish
+  signal: context_only
+- id: PCMT-RM-016
+  term: muslim
+  signal: context_only
+- id: PCMT-RM-017
+  term: arab
+  signal: context_only
+- id: PCMT-RM-018
+  term: palestinian
+  signal: context_only
+- id: PCMT-RM-019
+  term: israeli
+  signal: context_only
+- id: PCMT-RM-020
+  term: from the river to the sea
+  signal: context_only
+- id: PCMT-RM-021
+  term: intifada
+  signal: context_only

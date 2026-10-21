@@ -1,0 +1,59 @@
+schema_version: 1
+category: misogyny_sexism
+title: Misogyny, sexism, and gendered harassment
+category_notes: Account for misogyny, sexual objectification, stereotypes, and reclaimed terms
+entries:
+- id: PCMT-SX-001
+  term: femoid
+  signal: high_signal
+- id: PCMT-SX-002
+  term: foid
+  signal: high_signal
+- id: PCMT-SX-003
+  term: roastie
+  signal: high_signal
+- id: PCMT-SX-004
+  term: women are property
+  signal: high_signal
+- id: PCMT-SX-005
+  term: women belong in the kitchen
+  signal: high_signal
+- id: PCMT-SX-006
+  term: bitch
+  signal: context_only
+- id: PCMT-SX-007
+  term: cunt
+  signal: context_only
+- id: PCMT-SX-008
+  term: slut
+  signal: context_only
+- id: PCMT-SX-009
+  term: whore
+  signal: context_only
+- id: PCMT-SX-010
+  term: hoe
+  signal: context_only
+- id: PCMT-SX-011
+  term: females
+  signal: context_only
+- id: PCMT-SX-012
+  term: simp
+  signal: context_only
+- id: PCMT-SX-013
+  term: gold digger
+  signal: context_only
+- id: PCMT-SX-014
+  term: Karen
+  signal: context_only
+- id: PCMT-SX-015
+  term: Stacy
+  signal: context_only
+- id: PCMT-SX-016
+  term: make me a sandwich
+  signal: context_only
+- id: PCMT-SX-017
+  term: onlyfans
+  signal: context_only
+- id: PCMT-SX-018
+  term: body count
+  signal: context_only

@@ -1,0 +1,47 @@
+schema_version: 1
+category: general_personal_abuse
+title: General insults and personal harassment
+category_notes: Criticism and ordinary rudeness should not be erased
+entries:
+- id: PCMT-IN-001
+  term: idiot
+  signal: context_only
+- id: PCMT-IN-002
+  term: moron
+  signal: context_only
+- id: PCMT-IN-003
+  term: loser
+  signal: context_only
+- id: PCMT-IN-004
+  term: trash
+  signal: context_only
+- id: PCMT-IN-005
+  term: clown
+  signal: context_only
+- id: PCMT-IN-006
+  term: stfu
+  signal: context_only
+- id: PCMT-IN-007
+  term: wtf
+  signal: context_only
+- id: PCMT-IN-008
+  term: garbage
+  signal: context_only
+- id: PCMT-IN-009
+  term: fraud
+  signal: context_only
+- id: PCMT-IN-010
+  term: scam
+  signal: context_only
+- id: PCMT-IN-011
+  term: fake
+  signal: context_only
+- id: PCMT-IN-012
+  term: cringe
+  signal: context_only
+- id: PCMT-IN-013
+  term: copium
+  signal: context_only
+- id: PCMT-IN-014
+  term: touch grass
+  signal: context_only

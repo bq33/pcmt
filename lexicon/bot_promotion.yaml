@@ -1,0 +1,70 @@
+schema_version: 1
+category: unsolicited_promotion
+# Data-only patterns, for candidate generation. Maintainers review publication.
+title: Unsolicited promotion and profile-link bait
+category_notes: These terms describe promotional behavior, never the identity, gender, or appearance of an account holder
+entries:
+- id: PCMT-BP-001
+  term: don't click on my bio
+  signal: high_signal
+  variants: ["don't click my bio", "dont click on my bio", "do not click my bio", "never click my bio"]
+- id: PCMT-BP-002
+  term: don't check my bio
+  signal: high_signal
+  variants: ["dont check my bio", "do not check my bio", "don't check out my bio"]
+- id: PCMT-BP-003
+  term: don't look at my profile
+  signal: high_signal
+  variants: ["dont look at my profile", "don't open my profile", "never visit my profile"]
+- id: PCMT-BP-004
+  term: click my bio
+  signal: phrase_context
+  variants: ["click on my bio", "check my bio", "check out my bio", "visit my bio"]
+- id: PCMT-BP-005
+  term: link in my bio
+  signal: phrase_context
+  variants: ["link in bio", "link is in my bio", "check my profile link"]
+- id: PCMT-BP-006
+  term: check my profile
+  signal: phrase_context
+  variants: ["check out my profile", "go to my profile"]
+- id: PCMT-BP-007
+  term: onlyfans in my bio
+  signal: high_signal
+  variants: ["only fans in my bio", "my onlyfans is in my bio"]
+- id: PCMT-BP-008
+  term: subscribe to my onlyfans
+  signal: high_signal
+  variants: ["subscribe to my only fans", "join my onlyfans"]
+- id: PCMT-BP-009
+  term: fansly in my bio
+  signal: high_signal
+  variants: ["subscribe to my fansly", "join my fansly"]
+- id: PCMT-BP-010
+  term: spicy pics in bio
+  signal: phrase_context
+  variants: ["spicy content in bio", "spicy pics on my page"]
+- id: PCMT-BP-011
+  term: exclusive content in bio
+  signal: phrase_context
+  variants: ["private content in bio", "premium content in bio"]
+- id: PCMT-BP-012
+  term: send your pic to
+  signal: phrase_context
+  variants: ["send pic to", "send post to", "send your photo to"]
+- id: PCMT-BP-013
+  term: dm for exclusive
+  signal: phrase_context
+  variants: ["dm for pics", "dm me for private pics", "message me for premium"]
+- id: PCMT-BP-014
+  term: follow me for more
+  signal: phrase_context
+  variants: ["follow for more content", "follow my page"]
+- id: PCMT-BP-015
+  term: don't open my link
+  signal: high_signal
+  variants: ["don't tap my link", "don't click my link", "do not open my link"]
+- id: PCMT-BP-016
+  term: my private snap
+  signal: phrase_context
+  variants: ["premium snapchat", "private snapchat", "private snap"]

@@ -1,0 +1,50 @@
+schema_version: 1
+category: threats_sexual_harassment
+title: Threats, stalking, and sexual harassment
+category_notes: Threats and self-harm expressions require distinct interpretations
+entries:
+- id: PCMT-TH-001
+  term: kill yourself
+  signal: phrase_context
+- id: PCMT-TH-002
+  term: kys
+  signal: phrase_context
+- id: PCMT-TH-003
+  term: go die
+  signal: phrase_context
+- id: PCMT-TH-004
+  term: I will kill you
+  signal: phrase_context
+- id: PCMT-TH-005
+  term: I'm going to kill you
+  signal: phrase_context
+- id: PCMT-TH-006
+  term: I will hurt you
+  signal: phrase_context
+- id: PCMT-TH-007
+  term: I know where you live
+  signal: phrase_context
+- id: PCMT-TH-008
+  term: I will find you
+  signal: phrase_context
+- id: PCMT-TH-009
+  term: your address is
+  signal: phrase_context
+- id: PCMT-TH-010
+  term: you should be hanged
+  signal: phrase_context
+- id: PCMT-TH-011
+  term: you deserve to be raped
+  signal: phrase_context
+- id: PCMT-TH-012
+  term: I'm going to rape you
+  signal: phrase_context
+- id: PCMT-TH-013
+  term: send nudes
+  signal: phrase_context
+- id: PCMT-TH-014
+  term: show your tits
+  signal: phrase_context
+- id: PCMT-TH-015
+  term: send me pics
+  signal: phrase_context

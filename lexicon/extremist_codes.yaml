@@ -1,0 +1,62 @@
+schema_version: 1
+category: extremist_codes
+title: Extremist slogans and coded hate
+category_notes: Numerical codes and alleged dogwhistles have high collision rates
+entries:
+- id: PCMT-EX-001
+  term: white power
+  signal: high_signal
+- id: PCMT-EX-002
+  term: blood and soil
+  signal: high_signal
+- id: PCMT-EX-003
+  term: race war now
+  signal: high_signal
+- id: PCMT-EX-004
+  term: '1488'
+  signal: high_signal
+- id: PCMT-EX-005
+  term: 14/88
+  signal: high_signal
+- id: PCMT-EX-006
+  term: heil hitler
+  signal: high_signal
+- id: PCMT-EX-007
+  term: six million wasn't enough
+  signal: high_signal
+- id: PCMT-EX-008
+  term: the only good [group] is a dead [group]
+  signal: high_signal
+- id: PCMT-EX-009
+  term: '88'
+  signal: context_only
+- id: PCMT-EX-010
+  term: '14'
+  signal: context_only
+- id: PCMT-EX-011
+  term: HH
+  signal: context_only
+- id: PCMT-EX-012
+  term: great replacement
+  signal: context_only
+- id: PCMT-EX-013
+  term: white genocide
+  signal: context_only
+- id: PCMT-EX-014
+  term: red pill
+  signal: context_only
+- id: PCMT-EX-015
+  term: based
+  signal: context_only
+- id: PCMT-EX-016
+  term: woke
+  signal: context_only
+- id: PCMT-EX-017
+  term: DEI
+  signal: context_only
+- id: PCMT-EX-018
+  term: globalist
+  signal: context_only
+- id: PCMT-EX-019
+  term: jogger
+  signal: context_only
