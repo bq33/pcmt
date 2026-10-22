@@ -18,14 +18,20 @@ import urllib.request
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
 API_HOST = "graph.instagram.com"
 
-
 def load_config():
     try:
         with open(CONFIG_PATH) as f:
-            return json.load(f)
+            config = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        return {"operating_mode": "audit_only", "rules": {"blocked_terms": [], "blocked_patterns": [], "auto_delete_users": []}}
-
+        config = {"operating_mode": "audit_only", "rules": {"blocked_terms": [], "blocked_patterns": [], "auto_delete_users": []}}
+    # Environment variables override file config (for secrets on hosted platforms)
+    for key, env in (("verify_token", "PCMT_VERIFY_TOKEN"),
+                     ("app_secret", "PCMT_APP_SECRET"),
+                     ("access_token", "PCMT_ACCESS_TOKEN")):
+        val = os.environ.get(env)
+        if val:
+            config[key] = val
+    return config
 
 def check_comment(text, username, config):
     """Return (action, reason) for a comment. Action is one of:
@@ -49,7 +55,6 @@ def check_comment(text, username, config):
 
     return ("allow", "clean")
 
-
 def escalate(mode, reason):
     if mode == "audit_only":
         return ("flag", reason)
@@ -59,13 +64,11 @@ def escalate(mode, reason):
         return ("delete", reason)
     return ("flag", reason)
 
-
 def api_delete_comment(comment_id, access_token):
     url = f"https://{API_HOST}/v21.0/{comment_id}?access_token={urllib.parse.quote(access_token)}"
     req = urllib.request.Request(url, method="DELETE")
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.load(resp)
-
 
 def api_hide_comment(comment_id, access_token, hide=True):
     url = f"https://{API_HOST}/v21.0/{comment_id}/hide"
