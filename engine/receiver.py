@@ -123,7 +123,7 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PCMT_PORT", "8443"))
+    port = int(os.environ.get("PORT", os.environ.get("PCMT_PORT", "8443")))
     server = HTTPServer(("0.0.0.0", port), Handler)
     print(f"PCMT webhook receiver on :{port}")
     server.serve_forever()
