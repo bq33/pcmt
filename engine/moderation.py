@@ -20,8 +20,11 @@ API_HOST = "graph.instagram.com"
 
 
 def load_config():
-    with open(CONFIG_PATH) as f:
-        return json.load(f)
+    try:
+        with open(CONFIG_PATH) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"operating_mode": "audit_only", "rules": {"blocked_terms": [], "blocked_patterns": [], "auto_delete_users": []}}
 
 
 def check_comment(text, username, config):
