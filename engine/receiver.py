@@ -24,8 +24,10 @@ LOG_PATH = os.path.join(os.path.dirname(__file__), "moderation.log")
 
 def log_event(entry):
     entry["ts"] = __import__("datetime").datetime.utcnow().isoformat() + "Z"
+    line = json.dumps(entry)
     with open(LOG_PATH, "a") as f:
-        f.write(json.dumps(entry) + "\n")
+        f.write(line + "\n")
+    print(line, flush=True)
 
 
 def get_comment_text(comment_id, access_token):
